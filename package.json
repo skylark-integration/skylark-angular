@@ -1,29 +1,28 @@
 {
-  "name": "skylark-bootstrap4",
-  "description": "The skylark bootstrap4 component library",
+  "name": "skylark-angular",
+  "description": "A version of angularjs framework that ported to running on skylarkjs.",
   "version": "0.9.0",
   "keywords": [
     "skylark",
-    "ui",
-    "bootstrap3"
+    "framework",
+    "angular"
   ],
-  "homepage": "https://github.com/skylarkui/skylark-bootstrap4/",
+  "homepage": "https://github.com/skylark-integration/skylark-angular/",
   "author": "Hudaokeji, Inc.",
   "scripts": {
     "build": "sbundle build ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skylarkui/skylark-bootstrap4.git"
+    "url": "https://github.com/skylark-integration/skylark-angular.git"
   },
   "bugs": {
-    "url": "https://github.com/skylarkui/skylark-bootstrap4/issues"
+    "url": "https://github.com/skylark-integration/skylark-angular/issues"
   },
   "license": "MIT",
   "dependencies": {
     "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
-    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master",
-    "skylark-ui-popper": "git+https://github.com/skylarkui/skylark-ui-popper.git#master"
+    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master"
   },
   "engines": {
     "node": ">=0.10.1"
